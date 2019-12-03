@@ -1,4 +1,7 @@
 # Webpack Boilerplate
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+[![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](http://ForTheBadge.com) [![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](http://ForTheBadge.com) [![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/uses-js.svg)](http://ForTheBadge.com) 
 
 Basic Webpack 4 boilerplate.
 
@@ -6,8 +9,8 @@ Basic Webpack 4 boilerplate.
 
 ```
 git clone git@github.com:mortezasabihi/webpack-boilerplate.git
-npm install
 
+npm install
 ```
 
 ## Usage
@@ -28,6 +31,7 @@ npm run dev
 
 - [Webpack](https://webpack.js.org/)
 - [Babel](https://babeljs.io/)
+- [Eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [Sass](https://sass-lang.com/)
 
@@ -69,6 +73,8 @@ npm run dev
 ## Author
 
 - [Morteza Sabihi](https://github.com/mortezasabihi)
+
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/mortezasabihi/)
 
 ## License
 
