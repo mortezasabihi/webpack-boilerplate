@@ -1,0 +1,16 @@
+@import "./variables";
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url(../fonts/BebasNeue-Regular.ttf)
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: $font-family;
+    background-color: rgba(238, 238, 238, 0.8);
+}
