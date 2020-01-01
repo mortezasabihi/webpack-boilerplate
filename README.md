@@ -1,7 +1,8 @@
 # Webpack Boilerplate
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-[![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](http://ForTheBadge.com) [![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](http://ForTheBadge.com) [![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/uses-js.svg)](http://ForTheBadge.com) 
+[![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](http://ForTheBadge.com) [![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](http://ForTheBadge.com) [![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/uses-js.svg)](http://ForTheBadge.com)
 
 Basic Webpack 4 boilerplate.
 
@@ -32,6 +33,7 @@ npm run dev
 - [Webpack](https://webpack.js.org/)
 - [Babel](https://babeljs.io/)
 - [Eslint](https://eslint.org/)
+- [Stylelint](https://stylelint.io/)
 - [Prettier](https://prettier.io/)
 - [Sass](https://sass-lang.com/)
 
@@ -65,10 +67,11 @@ npm run dev
 
 ### Plugins
 
-- [`clean-webpack-plugin`](https://github.com/johnagan/clean-webpack-plugin/) - Remove/clean build folders. 
-- [`html-webpack-plugin`](https://github.com/jantimon/html-webpack-plugin/) - Generate HTML files from template. 
-- [`mini-css-extract-plugin`](https://github.com/webpack-contrib/mini-css-extract-plugin/) - Extract CSS into separate files. 
-- [`eslint-plugin-prettier`](https://github.com/prettier/eslint-plugin-prettier/) - ESLint plugin for Prettier formatting. 
+- [`clean-webpack-plugin`](https://github.com/johnagan/clean-webpack-plugin/) - Remove/clean build folders.
+- [`html-webpack-plugin`](https://github.com/jantimon/html-webpack-plugin/) - Generate HTML files from template.
+- [`mini-css-extract-plugin`](https://github.com/webpack-contrib/mini-css-extract-plugin/) - Extract CSS into separate files.
+- [`eslint-plugin-prettier`](https://github.com/prettier/eslint-plugin-prettier/) - ESLint plugin for Prettier formatting.
+- [`stylelint-scss`](https://github.com/kristerkari/stylelint-config-recommended-scss) - Add Scss support to stylelint
 
 ## Author
 

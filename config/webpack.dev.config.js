@@ -12,7 +12,7 @@ module.exports = merge(common, {
   mode: "development",
   devServer: {
     contentBase: paths.dist,
-    port: 8080,
+    port: 5000,
     hot: true
   },
   module: {

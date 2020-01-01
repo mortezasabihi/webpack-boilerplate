@@ -25,7 +25,8 @@ module.exports = merge(common, {
         loader: "file-loader",
         options: {
           name: "[name][contenthash].[ext]",
-          context: "src"
+          context: "src",
+          outputPath: "images"
         }
       },
       {
@@ -34,7 +35,8 @@ module.exports = merge(common, {
         options: {
           limit: 8192,
           name: "[name][contenthash].[ext]",
-          context: "src"
+          context: "src",
+          outputPath: "fonts"
         }
       }
     ]
@@ -42,7 +44,7 @@ module.exports = merge(common, {
   devtool: false,
   plugins: [
     new MiniCssExtractPlugin({
-      filename: "[name].[contenthash].css"
+      filename: `styles/[name].[contenthash].css`
     })
   ]
 });
